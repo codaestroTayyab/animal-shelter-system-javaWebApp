@@ -1,0 +1,52 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-image: url("pet-image.jpg");
+    background-color: #cccccc;
+}
+.sign {
+    width: 400px;
+    height: 450px;
+    border: 3px solid LightGray;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.entries
+{
+    margin-left: 10px;
+}
+.text
+{
+    color: dodgerblue;
+    font-size: small;
+}
+
+button
+{
+    background: rgb(213, 158, 78);
+    color: White;
+    width: 60%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+button[name = "loginB"]
+{
+    background: rgb(51, 38, 22);
+    color: White;
+    width: 60%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.terms
+{
+    color: dodgerblue;
+}

@@ -1,0 +1,63 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-image: url("pet-image.jpg");
+    background-color: #cccccc;
+}
+.sign 
+{
+    width: 400px;
+    height: 450px;
+    border: 3px solid LightGray;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.entries
+{
+    margin-left: 10px;
+}
+.text
+{
+    color: dodgerblue;
+    font-size: small;
+}
+
+button
+{
+    background: rgb(213, 158, 78);
+    color: White;
+    width: 60%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.terms
+{
+    color: dodgerblue;
+}
+
+button[name = "logout"]
+{
+    background: rgb(51, 38, 22);
+    color: white;
+    width: 30%;
+    
+    font-size: 15px;
+    
+}
+
+button[name = "signB"]
+{
+    background: rgb(51, 38, 22);
+    color: White;
+    width: 60%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+}

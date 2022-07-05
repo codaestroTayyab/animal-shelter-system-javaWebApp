@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	<welcome-file-list>  
+  		<welcome-file>welcomepage.html</welcome-file>
+		
+  	</welcome-file-list>
+
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Signup</servlet-name>
+		<servlet-class>Signup</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Signup</servlet-name>
+		<url-pattern>/Signup</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>admitPet</servlet-name>
+		<servlet-class>admitPet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>admitPet</servlet-name>
+		<url-pattern>/admitPet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>searchPet</servlet-name>
+		<servlet-class>searchPet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>searchPet</servlet-name>
+		<url-pattern>/searchPet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>updatePet</servlet-name>
+		<servlet-class>updatePet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>updatePet</servlet-name>
+		<url-pattern>/updatePet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>givePet</servlet-name>
+		<servlet-class>givePet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>givePet</servlet-name>
+		<url-pattern>/givePet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>displayPet</servlet-name>
+		<servlet-class>displayPet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>displayPet</servlet-name>
+		<url-pattern>/displayPet</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>

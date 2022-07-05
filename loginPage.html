@@ -1,0 +1,28 @@
+<html>
+    <title>
+        Login
+    </title>
+    <head>
+        <link rel="stylesheet" href="loginPage.css">
+        <script type="text/javascript" src="loginPage.js"></script>
+    </head>
+    <body>
+        <div class="sign">
+            <h3>
+               <center>Login</center>
+            </h3>
+            <form name ="login" action="Login" method="post">
+                <div class="entries">
+                    <input type="email" name="Email" placeholder="Email address " required  style="width: 92%;" >
+                    </p>
+                    <input type="password" name="Password" placeholder="Password" required style="width: 92%;" >
+                    <br><br>
+                    <center><button type="submit" onclick="validate()" >Login</button>
+                    <br><br>
+                    <button type="button" name = "signB" onclick="document.location = 'signupPage.html'">Sign Up</button>
+                </center>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
